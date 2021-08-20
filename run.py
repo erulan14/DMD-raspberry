@@ -5,8 +5,8 @@ from datetime import datetime
 import time
 import random
 
-layout = PinLayout(37, 38, 23, 35, 32)
-dmd = DMD(1, 1, 1, 32, 16, layout)
+layout = PinLayout(37, 38, 35, 32)
+dmd = DMD(1, 1, 32, 16, layout)
 
 #dmd.draw_box(32,0, 63, 15, 0)
 #dmd.draw_box(0,0, 20, 20, 0)
