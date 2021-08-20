@@ -15,7 +15,7 @@ class DMD(DMDBase):
            0x01    # 7, bit 0
     ]
 
-    def __init__(self, displayswide, displayshigh, displaybbp, pixelswidth, pixelsheight, layout):
+    def __init__(self, displayswide, displayshigh, pixelswidth, pixelsheight, layout):
         DMDBase.__init__(self, layout)
         self.displayPixelsWidth = pixelswidth
         self.displayPixelsHeight = pixelsheight
