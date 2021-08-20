@@ -19,4 +19,4 @@ If for some reason SPI does not work for you, restart with
 
 sudo dtparam spi = off
 
-sudo dtparam spi = off
+sudo dtparam spi = on
